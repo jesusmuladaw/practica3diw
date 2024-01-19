@@ -65,7 +65,7 @@ header > nav > ul {
 }
 
 main > div{
-    background-image: url(img/bg-hero-home-m.jpg);
+    background-image: url(../img/bg-hero-home-m.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
@@ -440,7 +440,7 @@ p > a > cite {
 }
 
 #logoDespacho42 {
-    background-image: url(img/isologo-despacho42.jpg);
+    background-image: url(../img/isologo-despacho42.jpg);
     background-size: contain;
     border-radius: 12.5px;
     padding: 40px;
@@ -969,7 +969,7 @@ aside > figure > figcaption {
     }
     
     #logoDespacho42 {
-        background-image: url(img/isologo-despacho42.jpg);
+        background-image: url(../img/isologo-despacho42.jpg);
         background-size: contain;
         width: 61px;
         height: 61px;
