@@ -923,6 +923,7 @@ aside > figure > figcaption {
     #queesdespacho42 {
         background-color: #F4F6F7;
         display: flex;
+        flex-direction: row;
         max-width: 50.5%;
         min-height: 413px;
         background-image: none;
@@ -953,6 +954,7 @@ aside > figure > figcaption {
     #queesdespacho42 > div:last-child > p {
         font-size: .96rem;
         line-height: 1.45rem;
+        width: 530px;
     }
     
     #queesdespacho42 > div:last-child > h3 {
