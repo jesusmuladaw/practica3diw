@@ -1,0 +1,1086 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    list-style: none;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+strong {
+    font-weight: bold;
+}
+
+header{
+    margin: auto;
+    text-align: center;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+}
+header > h1{
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+h1 > a{
+    letter-spacing: -7px;
+}
+h1 > a:hover, header > nav > ul > li > a:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+h1 > a > strong {
+    letter-spacing: 0px;
+}
+h1> a, nav > ul > li > a{
+    color: rgb(0, 0, 0);
+}
+
+
+nav::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 1;
+    width: 100%;
+    height: 8px; /* Grosor de la sombra */
+    background: linear-gradient(to bottom, rgba(0,0,0,.03), rgba(0, 0, 0, 0.01), transparent); /* Gradiente para la sombra */
+    z-index: -1; /* Sitúa el pseudo-elemento detrás del contenido del header */
+  }
+
+header > nav > ul > li > a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+header > nav > ul {
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+main > div{
+    background-image: url(img/bg-hero-home-m.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.7rem;
+    max-height: 385px;
+}
+
+#titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2rem;
+    text-align: center;
+    margin: auto;
+    max-width: 370px;
+}
+div > h2 {
+    max-width: 300px;
+}
+
+
+article > h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#aldia {
+    margin-bottom: -1rem;
+}
+
+main > article:first-child > h3 {
+    margin-bottom: 3rem;
+}
+article {
+    margin: auto;
+    max-width: 334px;
+}
+
+article > p {
+    padding-bottom: 1rem;
+}
+
+article > div > section {
+    margin: auto;
+    width: 82%;
+}
+
+article > div > section > p {
+    font-size: 0.95rem;
+}
+
+article > div > section > a {
+    font-size: 0.7rem;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+
+.rojo-sin-sub {
+    color: rgb(222, 35, 51);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+section > h4 {
+    padding: .8rem 0 .8rem 0;
+}
+
+section > figure > figcaption {
+    padding-top: .8rem;
+    font-size: .8rem;
+}
+
+.flecha {
+    font-size: .65rem;
+    text-transform: uppercase;
+}
+
+.flecha::before{
+    font-size: 0.7rem;
+    content: "> ";
+    margin-right: 6px;
+    font-weight: initial;
+}
+
+article > div > section > p {
+    padding-bottom: .8rem;
+}
+
+article > div > section {
+    padding-top: 2.3rem;
+}
+
+footer{
+    margin-top: 2.5rem;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+footer > div > ul > li > a {
+    color: rgb(255, 255, 255);
+}
+
+footer > div > ul> li > a{
+    display: block;
+    font-size: .8rem;
+}
+footer > div > ul{
+    padding: 3rem 0 .6rem 0;
+}
+
+footer > div > div:last-child{
+    padding: 1.3rem 0 2rem 0;
+    font-size: .7rem;
+}
+
+footer > div > ul > li > a:hover, #activo, .activo{
+    color: rgb(222, 35, 51);
+}
+#rrss > a:hover {
+    opacity: .7;
+}
+#rrss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rrss > a > img{
+    width: 23px;
+}
+
+p > a {
+    color: rgb(222, 35, 51);
+}
+p > a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+#app{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr;
+}
+
+#app > article {
+    background-color: #F4F6F7;
+    max-width: 280px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+#app > article:last-child{
+    margin-bottom: 0;
+}
+
+#app > article > h3 {
+    font-size: 1.83rem;
+    padding: 0;
+    padding-bottom: 1.3rem;
+    margin: 0;
+    text-align: start;
+}
+#app > article > p{
+    font-size: 1.04rem;
+    line-height: 25px;
+    padding-bottom: .7rem;
+}
+
+#peliculas {
+    height: 1275px;
+}
+
+#peliculas > h2 {
+    font-size: 1.8rem;
+    width: 300px;
+}
+
+#peliculas > div{
+    display: grid;
+    background-image: none;
+
+}
+
+#peliculas > div > figure > iframe{
+    width: 310px;
+    height: 175px;
+}
+
+#peliculas > div > figure > figcaption{
+    font-size: .86rem;
+    line-height: normal;
+    color: #000;
+    background-color: #F4F6F7;
+    padding: 15px;
+    margin: auto;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    text-align: start;
+    width: 280px;
+}
+#peliculas > div > figure > figcaption > cite {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#titulo {
+    padding: 30px;
+}
+body {
+    overflow-x: hidden;
+}
+
+#despacho {
+    text-align: start;
+}
+#breadcrumbs {
+    font-size: .78rem;
+    background-image: none;
+    color: #000000;
+    height: auto;
+    justify-content: start;
+    margin: auto;
+    padding: 40px 40px;
+}
+#breadcrumbs > a {
+    color: #000000;
+    margin: 5px;
+    padding: 0;
+}
+#breadcrumbs > a:hover {
+    color: rgb(222, 35, 51);
+}
+
+#breadcrumbs > span {
+    margin: 5px;
+}
+
+#despacho > article > figure > figcaption {
+    font-size: .73rem;
+    margin: 0;
+    padding: 8px 0 22px 0;
+}
+#despacho > article > figure > figcaption > span:last-child::before{
+    content: "|";
+    margin: 10px;
+}
+
+#despacho > article > h2 {
+    width: 350px;
+    text-align: start;
+    margin: 0 ;
+    padding: 1rem 0;
+}
+
+#despacho > article > p {
+    font-size: .96rem;
+    width: 344px;
+    margin: 0 ;
+    padding: 13px 0;
+}
+
+#despacho > article > p:nth-child(8){
+    padding: 0;
+}
+
+#despacho > article > p:nth-child(11){
+    padding-bottom: 0;
+}
+#despacho > article > p:nth-child(14){
+    padding-bottom: 0;
+}
+
+#despacho > article > p:nth-child(19) {
+    padding-bottom: 0;
+}
+
+#enlace {
+    color: rgb(222, 35, 51);
+    font-style: italic;
+    font-weight: bold;
+    font-size: .72rem;
+}
+#enlace:hover {
+    color: #000;
+}
+#enlaceArticulo  {
+    width: 65%;
+    line-height: .95rem;
+}
+
+#despacho > article > h3 {
+    text-align: start;
+    font-size: 1.4rem;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8rem;
+}
+
+#despacho > article > h4 {
+    font-weight: bold;
+    font-size: 1.12rem;
+    width: 340px;
+    line-height: 1.4rem;
+    margin: 0;
+}
+
+p > a > cite {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#queesdespacho42 {
+    background-color: #F4F6F7;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    min-height: 600px;
+    background-image: none;
+    font-size: 1rem;
+    color: #000000;
+    line-height: normal;
+    text-align: start;
+    align-items: start;
+    justify-content: start;
+    margin: auto;
+    padding: 22px;
+    margin-top: 30px ;
+}
+#queesdespacho42 > div:last-child{
+    display: flex;
+    flex-direction: column;
+    margin: 28px 0 0 -14px;
+    padding: 0;
+    gap: 20px;
+}
+
+#queesdespacho42 > div:last-child > h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    min-width: 350px;
+}
+
+#queesdespacho42 > div:last-child > p {
+    font-size: .96rem;
+    line-height: 1.45rem;
+    width: 308px;
+}
+
+#queesdespacho42 > div:last-child > h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+#queesdespacho42 > div:last-child > div {
+    display: flex;
+    flex-direction: column;
+    font-weight: initial;
+    margin-top: -10px;
+}
+
+#logoDespacho42 {
+    background-image: url(img/isologo-despacho42.jpg);
+    background-size: contain;
+    border-radius: 12.5px;
+    padding: 40px;
+    justify-content: start;
+    align-items: start;
+}
+
+.rojo {
+    color: rgb(222, 35, 51);
+    text-transform: capitalize;
+    font-size: .8rem;
+    margin-left: 5px;
+    margin-bottom: -2px;
+}
+
+.rojo::before {
+    font-size: 0.75rem;
+    content: "> ";
+    margin-right: 0;
+    font-weight: initial;
+}
+
+.rojo:hover, .privacidad:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+form {
+    margin: auto ;
+    margin-top: 30px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+form > h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+form > p {
+    font-size: .65rem;
+}
+
+form > label {
+    margin-top: 20px;
+    font-size: .95rem;
+}
+
+textarea{
+    height: 130px;
+    background-color: #F4F6F7;
+    width: 350px;
+}
+
+form > input {
+    background-color: #F4F6F7;
+    width: 350px;
+    height: 43px;
+}
+form > div {
+    margin: 23px 0;
+    font-size: .965rem;
+}
+
+form > div > label > a {
+    color: #DE2333;
+}
+
+#enviar {
+    width: 183px;
+    height: 29px;
+    text-align: start;
+    padding-left: 6px;
+    text-transform: uppercase;
+    background-color: #DE2333;
+    color: #ffffff;
+    font-size: 1.05rem;
+}
+
+aside {
+    margin: auto;
+    margin-top: 50px;
+    width: 350px;
+}
+
+aside > h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+aside > figure {
+    width: 285px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .8rem;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px black dotted;
+}
+
+aside > figure > img{
+    width: 70px;
+    border-radius: 100px;
+}
+
+aside > figure > p {
+    margin-left: 10px;
+    width: 200px;
+}
+
+aside > figure > figcaption {
+    font-weight: initial;
+    min-width: 60px;
+    margin: -33px 0 0 80px ;
+}
+
+@media (min-width:768px) and (max-width:1044px) {
+    header > h1{
+        font-size: 3.6rem;
+    }
+    h1 > a {
+        letter-spacing: -8px;
+    }
+    main > div {
+        font-size: 3rem;
+        height: 310px;
+    }
+    main > div > h2 {
+        max-width: 600px;
+    }
+    article {
+        max-width: 650px;
+    }
+    article > p {
+        font-size: 1.3rem;
+    }
+    article > div {
+        display: flex;
+        gap: 20px;
+    }
+    div > section > figure > figcaption {
+        font-size: 1rem;
+    }
+    article > div > section > p {
+        font-size: 1rem;
+    }
+    section {
+        padding: 1px;
+    }
+
+    #app {
+        grid-template-columns: 1fr 1fr;
+        max-width: 660px;
+    }
+    #app > article {
+        margin-bottom: 30px;
+        max-width: 250px;
+    }
+    #titulo{
+        max-width: none;
+    }
+
+    #peliculas {
+        height: 1610px;
+    }
+    #peliculas > h2{
+        font-size: 1.5rem;
+        width: 400px;
+    }
+    #peliculas > div > figure > iframe {
+        width: 515px;
+        height: 290px;
+        margin: -4px;
+    }
+    #peliculas > div > figure > figcaption {
+        width: 495px;
+        padding: 10px;
+        font-size: .77rem;
+    }
+    #peliculas > div > figure {
+        margin-bottom: 30px;
+    }
+
+    #despacho {
+        min-height: 3700px;
+    }
+    #breadcrumbs {
+        padding: 30px;
+    }
+
+    #despacho > article > h2 , #despacho > article > p , #despacho > article > h3 , #despacho > article > h4 {
+        width: 100%;
+    }
+
+    #queesdespacho42 {
+        display: flex;
+        flex-direction: row;
+        min-width: 610px;
+        min-height: 370px;
+        gap: 30px;
+    }
+
+    #queesdespacho42 > div > p{
+        min-width: 520px;
+    }
+
+    form {
+        width: 650px;
+    }
+    form > textarea , form > input {
+        min-width: 650px;
+    }
+
+    #enviar {
+        min-width: 180px;
+    }
+    
+    aside > h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+    
+    aside > figure {
+        width: 400px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: .8rem;
+        display: flex;
+        flex-flow: row wrap;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px black dotted;
+    }
+    
+    aside > figure > img{
+        width: 100px;
+        border-radius: 100px;
+    }
+    
+    aside > figure > p {
+        margin-left: 10px;
+        width: 280px;
+    }
+    
+    aside > figure > figcaption {
+        font-weight: initial;
+        min-width: 60px;
+        margin: -62px 0 0 110px ;
+    }
+}
+
+@media (min-width:1045px){
+    header {
+        padding-left: 131px;
+        text-align: left;
+        max-width: 2024px;
+        min-width: 900px;
+    }
+    article {
+        min-width: 1024px;
+    }
+    header > h1 {
+        font-size: 3.6rem;
+        padding-left: 0;
+        padding-bottom: .8rem;
+    }
+    h1 > a{
+        letter-spacing: -7px;
+    }
+    header > nav > ul{
+        display: flex;
+        padding-bottom: 1.5rem;
+    }
+    header > nav > ul > li {
+        padding-right: 1.5rem;
+    }
+    header > nav > ul > li > a {
+        font-size: 1rem;
+    }
+    main > div {
+        font-size: 4.8rem;
+        line-height: 75px;
+        height: 410px;
+    }
+    main > div > h2 {
+        max-width: 800px;
+    }
+    article > p{
+        font-size: 1.6rem;
+        max-width: 800px;
+        margin: auto;
+    }
+    article > p:last-child{
+        padding-bottom: 0rem;
+    } 
+
+    main > article > div{
+        display: flex;
+        gap: 35px;
+        max-width: 1000px;
+        margin: auto;
+    }
+    footer > div{
+        text-align: left;
+        margin: auto;
+        max-width: 1024px;
+    }
+    footer > div > ul{
+        font-size: .6rem;
+        display: flex;
+        gap: 20px;
+    }
+    footer > div > ul > li{
+        list-style: disc;
+        font-size: 4px;
+        padding-left: 3px;
+    }
+
+    footer > div > ul > li:first-child{
+        list-style: none;
+    }
+
+    #rrss {
+        justify-content: start;
+    }
+
+    #app > article {
+        min-width: 0;
+        margin-bottom: 4rem;
+        max-width: 250px;
+    }
+
+    #app > article:last-child{
+        margin-bottom: 0;
+    }
+    #app {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1090px;
+    }
+
+    #titulo{
+        max-width: none;
+        padding: 40px;
+    }
+
+    #peliculas {
+        height: 885px;
+    }
+
+    #peliculas > h2 {
+        font-size: 2rem;
+        width: 500px;
+    }
+
+    #peliculas > div {
+        margin: auto;
+        max-width: 1050px;
+        grid-template-columns: 1fr 1fr;
+    }
+    #peliculas > div > figure > iframe {
+        width: 505px;
+        height: 285px;
+    }
+    #peliculas > div > figure {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    #peliculas > div > figure > figcaption{
+        font-size: .8rem;
+        width: 493px;
+        height: 50px;
+        padding: 13px 0 20px 12px;
+        text-align: start;
+        line-height: 20px;
+    }
+    #peliculas > div > figure:nth-child(3) > figcaption, #peliculas > div > figure:nth-child(4) > figcaption{
+        padding-bottom: 0px;
+    }
+
+    #despacho {
+        text-align: initial;
+        display: flex;
+        flex-flow: column wrap;
+        max-height: 3500px;
+        min-width: 1180px;
+        max-width: 1400px;
+    }
+    #breadcrumbs {
+        padding: 0;
+        margin-left: 130px;
+    }
+    
+    #despacho > article > figure > img{
+        margin: 0 30px;
+        max-width: 669.5px;
+        width: 80%;
+    }
+    #despacho > article > figure > figcaption {
+        font-size: .73rem;
+        margin: 0 30px;
+        padding: 8px 0 22px 0;
+    }
+    #despacho > article > figure > figcaption > span:last-child::before{
+        content: "|";
+        margin: 10px;
+    }
+    
+    #despacho > article > h2 {
+        width: 65%;
+        text-align: start;
+        margin: 0 30px;
+        padding: 1rem 0;
+    }
+    
+    #despacho > article > p {
+        font-size: .96rem;
+        width: 65.4%;
+        margin: 0 30px;
+        padding: 13px 0;
+    }
+    
+    #despacho > article > p:nth-child(8){
+        padding: 0;
+    }
+    
+    #despacho > article > p:nth-child(11){
+        padding-bottom: 0;
+    }
+    #despacho > article > p:nth-child(14){
+        padding-bottom: 0;
+    }
+    
+    #despacho > article > p:nth-child(19) {
+        padding-bottom: 0;
+    }
+    
+    #enlace {
+        color: rgb(222, 35, 51);
+        font-style: italic;
+        font-weight: bold;
+        font-size: .72rem;
+    }
+
+
+
+    #enlaceArticulo  {
+        width: 65%;
+        line-height: .95rem;
+    }
+    
+    
+    #despacho > article > h3 {
+        text-align: start;
+        font-size: 1.4rem;
+        width: 65%;
+        margin: 0 30px;
+        padding: 0;
+        line-height: 1.8rem;
+    }
+    
+    #despacho > article > h4 {
+        font-weight: bold;
+        font-size: 1.12rem;
+        width: 65%;
+        line-height: 1.4rem;
+        margin: 0 30px;
+    }
+    
+    p > a > cite {
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    #queesdespacho42 {
+        background-color: #F4F6F7;
+        display: flex;
+        max-width: 50.5%;
+        min-height: 413px;
+        background-image: none;
+        font-size: 1rem;
+        color: #000000;
+        line-height: normal;
+        text-align: start;
+        align-items: start;
+        justify-content: start;
+        margin: 30px 130px;
+        padding: 0;
+    }
+    #queesdespacho42 > div:last-child{
+        display: flex;
+        flex-direction: column;
+        width: 78%;
+        margin: 28px 0 0 -14px;
+        padding: 0;
+        gap: 20px;
+    }
+    
+    #queesdespacho42 > div:last-child > h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        min-width: 350px;
+    }
+    
+    #queesdespacho42 > div:last-child > p {
+        font-size: .96rem;
+        line-height: 1.45rem;
+    }
+    
+    #queesdespacho42 > div:last-child > h3 {
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin-top: -10px;
+    }
+    
+    #queesdespacho42 > div:last-child > div {
+        display: flex;
+        flex-direction: column;
+        font-weight: initial;
+        margin-top: -10px;
+    }
+    
+    #logoDespacho42 {
+        background-image: url(img/isologo-despacho42.jpg);
+        background-size: contain;
+        width: 61px;
+        height: 61px;
+        border-radius: 12.5px;
+        margin: 32px;
+        padding: 0;
+    }
+    
+    .rojo {
+        color: rgb(222, 35, 51);
+        text-transform: capitalize;
+        font-size: .8rem;
+        margin-left: 5px;
+        margin-bottom: -2px;
+    }
+    
+    .rojo::before {
+        font-size: 0.75rem;
+        content: "> ";
+        margin-right: 0;
+        font-weight: initial;
+    }
+    
+    form {
+        margin: 0 130px;
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    form > h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 18px;
+    }
+    form > p {
+        font-size: .65rem;
+    }
+    
+    form > label {
+        margin-top: 20px;
+        font-size: .95rem;
+    }
+    
+    textarea{
+        height: 130px;
+        background-color: #F4F6F7;
+        width: 77.6%;
+    }
+    
+    form > input {
+        background-color: #F4F6F7;
+        width: 77.6%;
+        height: 43px;
+    }
+    form > div {
+        margin: 23px 0;
+        font-size: .965rem;
+    }
+    
+    form > div > label > a {
+        color: #DE2333;
+    }
+    
+    #enviar {
+        width: 183px;
+        height: 29px;
+        text-align: start;
+        padding-left: 6px;
+        text-transform: uppercase;
+        background-color: #DE2333;
+        color: #ffffff;
+        font-size: 1.05rem;
+    }
+    
+    aside {
+        margin-top: 75px;
+        margin-left: -345px;
+    }
+    
+    aside > h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+    
+    aside > figure {
+        width: 285px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: .8rem;
+        display: flex;
+        flex-flow: row wrap;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px black dotted;
+    }
+    
+    aside > figure > img{
+        width: 70px;
+        border-radius: 100px;
+    }
+    
+    aside > figure > p {
+        margin-left: 10px;
+        width: 200px;
+    }
+    
+    aside > figure > figcaption {
+        font-weight: initial;
+        min-width: 60px;
+        margin: -33px 0 0 80px ;
+    }
+}
